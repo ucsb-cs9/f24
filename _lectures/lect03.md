@@ -5,7 +5,7 @@ ready: true
 lecture_date: 2024-10-03 15:30:00.00-7:00
 ---
 
-Recorded Lecture: [10_3_24](https://drive.google.com/file/d/1N7ZdjYCRy6xkn2tWAk9-KZJXl1bDhMI_/view?usp=sharing)
+Recorded Lecture: [10-3-24](https://drive.google.com/file/d/1N7ZdjYCRy6xkn2tWAk9-KZJXl1bDhMI_/view?usp=sharing)
 
 # Dictionaries
 
