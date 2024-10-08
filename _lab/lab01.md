@@ -61,19 +61,19 @@ print(i.toString())
 
 <b>Output:</b>
 
-<tt>
+```
 UPC: 420012347654, Category: PRODUCE, Name: AVOCADO, Price: $2.00
-</tt>
+```
 
 <b>Note:</b> The `i.toString()` return value in the example above does not contain a newline character (`\n`) at the end.
 
 <b>Tip:</b> Note that the price is displayed with two decimal places (as traditionally used when displaying prices). Consider using the string's `format` method (or `f-string`) where the floating point value will contain 2 decimal places. For example:
 
-<tt>
+```
 >>> price = 1.5
 >>> "{:.2f}".format(price)
 '1.50'
-</tt>
+```
 
 You can refer to CS 8 lecture notes on string formatting if you would like a review:
 * [https://ucsb-cs8.github.io/m19-wang/lectures/lect11/](https://ucsb-cs8.github.io/m19-wang/lectures/lect11/)
