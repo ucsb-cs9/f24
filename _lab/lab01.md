@@ -63,7 +63,7 @@ print(i.toString())
 
 <tt>
 UPC: 420012347654, Category: PRODUCE, Name: AVOCADO, Price: $2.00
-<tt>
+</tt>
 
 <b>Note:</b> The `i.toString()` return value in the example above does not contain a newline character (`\n`) at the end.
 
@@ -73,7 +73,7 @@ UPC: 420012347654, Category: PRODUCE, Name: AVOCADO, Price: $2.00
 >>> price = 1.5
 >>> "{:.2f}".format(price)
 '1.50'
-<tt>
+</tt>
 
 You can refer to CS 8 lecture notes on string formatting if you would like a review:
 * [https://ucsb-cs8.github.io/m19-wang/lectures/lect11/](https://ucsb-cs8.github.io/m19-wang/lectures/lect11/)
