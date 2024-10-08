@@ -10,7 +10,7 @@ ready: true
 Richert Wang
 
 * Tuesdays 5 - 6pm (HFH 1151 [https://goo.gl/maps/2miBjdxACQPbzic76](https://goo.gl/maps/2miBjdxACQPbzic76))
-* Thursdays 2:30pm - 3:30pm (outside lecture hall (TD-W 1701))
+* Thursdays 2 - 3pm (HFH 1151 [https://goo.gl/maps/2miBjdxACQPbzic76](https://goo.gl/maps/2miBjdxACQPbzic76))
 
 # TAs
 
