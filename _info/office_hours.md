@@ -28,7 +28,7 @@ Qiucheng Wu
 * Fridays 5 - 6pm (Trailer 936 [https://goo.gl/maps/LqegEHQB9Xoq67pS7](https://goo.gl/maps/LqegEHQB9Xoq67pS7))
 
 Christos Zangos
-* Mondays 8am - 12pm (Zoom [https://ucsb.zoom.us/my/christos.z](https://ucsb.zoom.us/my/christos.z))
+* Mondays 8:30am - 10:30am (Trailer 936 [https://goo.gl/maps/LqegEHQB9Xoq67pS7](https://goo.gl/maps/LqegEHQB9Xoq67pS7))
 
 # Learning Assistants
 
