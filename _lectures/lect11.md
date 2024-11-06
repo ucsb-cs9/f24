@@ -206,18 +206,3 @@ def test_bubbleSort():
 	bubbleSort(list4)
 	assert list4 == [1,3,5,6,7]
 ```
-
-## Bubble Sort Analysis
-
-* Notice that we have to make at most n-1 comparisons during the first iteration through the list
-	* Then n-2 comparisons during the 2nd iteration, etc.
-* So if count the number of comparisons in this algorithm, we have
-	* 1 + 2 + 3 + ... + (n-2) + (n-1)
-* This summation can be simplified to n(n+1)/2
-	* We can deduce that this algorithm is **O(n<sup>2</sup>)**
-* Also note that in the BEST case scenario, the list is already sorted
-	* Each iteration does nothing, but we still compare the values anyways, thus performing unnecessary work
-	* In order to improve situations where the list becomes sorted during the swaps, we can check if a swap occurred during an iteration
-		* If yes, continue algorithm
-		* If no, then the list is sorted, so stop the algorithm!
-		* An implementation of this optimization is shown in the textbook
