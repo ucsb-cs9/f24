@@ -68,7 +68,7 @@ print(m2.getMovieDetails())
 
 ```
 THE GODFATHER directed by FRANK DARABONT (1972), Rating: 9.4
-2001: A SPACE ODYSSEY directed by STANLEY KUBRIC, Rating: None
+2001: A SPACE ODYSSEY directed by STANLEY KUBRIC (1968), Rating: None
 ```
 
 * Lastly, your `Movie` class will overload the `>` operator (`__gt__`). This will be used when finding the proper position of a Movie in the Ordered Linked List using the specification above. We can compare movies using the `>` operator while walking down the list and checking if the inserted movie is `>` than a specific Movie in the Ordered Linked List.
