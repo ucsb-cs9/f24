@@ -178,7 +178,7 @@ print(mc.avgDirectorRating("Curtiz, Michael"))
 
 ```
 8.95
-8.80
+8.8
 ```
 
 * `recursiveSearchMovie(self, movieName, movieNode)` - method that searches the `MovieCollection` for a specific Movie name passed in the method. **Note: this method must be done recursively.** This method will return `True` if a Movie in the MovieCollection has the same name as the parameter `movieName` (str), and return `False` otherwise.
