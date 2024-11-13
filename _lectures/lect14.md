@@ -1,6 +1,6 @@
 ---
 num: "Lecture 14"
-desc: "Quicksort"
+desc: "Quicksort, Trees"
 ready: true
 lecture_date: 2024-11-12 15:30:00.00-7:00
 ---
@@ -101,3 +101,19 @@ def partition(alist, first, last):
 * Note that Quicksort DOES NOT need extra space (unlike merge sort)
 
 ![quicksortAnalysis.png](quicksortAnalysis.png)
+
+# Trees
+
+## Terminology
+
+* Node - An element in the tree. May have an incoming edge and many outgoing edges.
+* Edge - A connection between nodes (can be directional or bidirectional)
+* Root - The top most node (node without any incoming edges)
+* Path - The sequence of nodes from one node to a destination node along the tree
+* Children - Nodes that have incoming edges from another node
+* Parent - Contains outgoing edges to other child nodes
+* Sibling - Nodes that have the same parent
+* Subtree - A tree structure where the root of the tree is a child of a parent
+* Leaf - A node without any outgoing edges
+* Level - Number of edges from the root node to a destination node
+* Height - Maximum level of the entire tree
