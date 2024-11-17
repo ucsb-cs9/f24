@@ -64,7 +64,7 @@ Tea objects can be categorized as two different types. Both of these types of te
 * `CustomTea` that allows the customers to customize a tea blend by choosing a base and add additional flavors of their choosing
 * `SpecialtyTea` that has already been pre-configured with a fixed price based on its size
 
-## CustomTea.py
+## `CustomTea.py`
 
 Your `CustomTea` class definition will be defined in `CustomTea.py`. In addition to the fields inherited from the `Tea` class, a `CustomTea` object will contain the following additional attributes specific to a `CustomTea` item:
 
@@ -76,14 +76,16 @@ The price of a `CustomTea` object is defined by two things:
 * the number of flavors this tea will have.
 
 `CustomTea` objects will have the following fixed prices based on its size:
-    * Small (S): $10.00
-    * Medium (M): $15.00
-    * Large (L): $20.00
+
+* Small (S): $10.00
+* Medium (M): $15.00
+* Large (L): $20.00
 
 The size of the Tea also dictates the amount each additional flavor will cost based on the following criteria:
-    * Small (S): + $0.25 per additional flavor
-    * Medium (M): + $0.50 per additional flavor
-    * Large (L): + $0.75 per additional flavor
+
+* Small (S): + $0.25 per additional flavor
+* Medium (M): + $0.50 per additional flavor
+* Large (L): + $0.75 per additional flavor
 
 Since we now know what the price of a Tea should be based on the size, the `CustomTea` constructor should determine the base price of the Tea and update it appropriately based on the size. The `CustomTea` class will contain a constructor that takes in the size and base values for this object:
  * `__init__(self, size, base)`
