@@ -157,7 +157,7 @@ MODERN TIMES directed by CHARLIE CHAPLIN (1936), Rating: 8.9
 ```
 
 * `removeDirector(self, director)` - method that removes all Movies directed by a specified director. Since this is an Ordered Linked List, all Movies directed by a specific director should be located right next to each other in the Movies Collection assuming your `insertMovie` method has been implemented correctly. **Note:** the input parameter (`director`) may be in a different case than the case of the director that the movie was constructed with - your solution must account for these situations.
-* `avgDirectorRating(self, director)` - method that determines the average rating of Movies directed by a specified director. Similarly, all Movies directed by a specific director should be located right next to each other in the Movies Collection. You should round the average of rating to two decimals. Any movies with a rating of `None` should be ignored. If a director has no ratings, then this function should return `None`. For example:
+* `avgDirectorRating(self, director)` - method that returns a `float` representing the average rating of Movies directed by a specified director. Similarly, all Movies directed by a specific director should be located right next to each other in the Movies Collection. You should round the average of rating to two decimals. Any movies with a rating of `None` should be ignored. If a director has no ratings, then this function should return `None`. For example:
 
 ```python
 m0 = Movie("Casablanca", "Curtiz, Michael", 1942, 8.8)
