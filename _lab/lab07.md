@@ -113,7 +113,7 @@ Price: $10.00\n"
 An example (with escape characters shown for formatting) with a list of flavors is given below (note that each flavor will be indented with a tab):
 
 ```python
-cp1 = CustomTea("L, Green")
+cp1 = CustomTea("L", "Green")
 cp1.addFlavor("peach")
 cp1.addFlavor("jasmine")
 
