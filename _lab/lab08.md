@@ -238,8 +238,8 @@ While Gradescope will not execute this file during automated testing, you can ru
 Once you have completed your class definitions and tests, submit the following files to Gradescope’s Lab08 assignment:
 
 * `Event.py`
-* `CourseTreeNode.py`
-* `CourseTree.py`
+* `CourseCatalogNode.py`
+* `CourseCatalog.py`
 * `testFile.py`
 
 Gradescope will run a variety of unit tests to verify that your code works correctly according to the specifications provided in this lab.
