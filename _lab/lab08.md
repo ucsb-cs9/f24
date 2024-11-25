@@ -64,7 +64,7 @@ TR 15:30 - 16:45, TD-W 1701
 def format(time):
     return f"{time[0]//100:0>2}:{time[0]%100:0>2} - {time[1]//100:0>2}:{time[1]%100:0>2}"
 
-assert format((800, 1550)) == "8:00 - 15:50"
+assert format((800, 1550)) == "08:00 - 15:50"
 ```
 
 ## CourseCatalogNode.py
